@@ -17,6 +17,7 @@ def imprime_edificios_parados(edificios):
         cadena += "\t".join([str(edif[idx_piso]) for edif in edificios]) + "\n"
     return cadena
 
+
 def supermono_mierda_core(edificios, brinco_deficit):
     max_edificios = 0
     salvados_dp = [[0] * len(edificios[0]) for _ in range(len(edificios))]
